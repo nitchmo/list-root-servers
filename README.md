@@ -1,6 +1,6 @@
 # djbdns用のroot servers情報を更新するツールを作りました。
 
-root servers情報って、[http://www.root-servers.org/news.html](このページ)を見ると年に一度くらいの頻度で変更されていますね。  
+root servers情報って、[このページ](http://www.root-servers.org/news.html)を見ると年に一度くらいの頻度で変更されていますね。  
 なので、djbdns内の dnscacheで設定されている root servers情報を更新するツールをPythonで作りました。  
 空の行を含めても20行程度なので「作った」と言うほどでもないし、dnsqとawkを使って１行で成してしまう方法もあるみたいで、車輪をつくっちゃった感は否めないなぁ・・・
 
@@ -25,4 +25,4 @@ python list-root-servers.py > /var/dnscache/root/servers/@
 
 ※ Python3な方は`list-root-servers3.py`を使ってください。
 
-詳しくは[https://nitchmo.com/djbdns-root-data.html](こちら)
+詳しくは[こちら](https://nitchmo.com/djbdns-root-data.html)
