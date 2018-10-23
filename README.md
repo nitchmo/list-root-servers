@@ -1,11 +1,5 @@
 # djbdns用のroot servers情報を更新するツールを作りました。
 
-root servers情報って、[このページ](http://www.root-servers.org/news.html)を見ると年に一度くらいの頻度で変更されていますね。  
-なので、djbdns内の dnscacheで設定されている root servers情報を更新するツールをPythonで作りました。  
-空の行を含めても20行程度なので「作った」と言うほどでもないし、dnsqとawkを使って１行で成してしまう方法もあるみたいで、車輪をつくっちゃった感は否めないなぁ・・・
-
-## 概要
-
 動作の概要を説明すると、`https://www.internic.net/domain/named.root`にアクセスして、その中のIPを取得しただけです。  
 
 ## 使い方
