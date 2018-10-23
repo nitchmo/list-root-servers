@@ -25,3 +25,4 @@ python list-root-servers.py > /var/dnscache/root/servers/@
 
 ※ Python3な方は`list-root-servers3.py`を使ってください。
 
+詳しくは[https://nitchmo.com/djbdns-root-data.html](こちら)
